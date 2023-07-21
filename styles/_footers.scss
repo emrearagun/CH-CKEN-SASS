@@ -1,0 +1,30 @@
+@import'colors';
+
+
+
+footer{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+
+    address a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        @include tablet{
+            font-size: 15px;
+        }
+
+        &:hover{
+            text-decoration:underline ;
+            transition: 0.3s;
+        }
+    }
+
+
+
+}
+
